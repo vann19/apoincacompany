@@ -1,4 +1,5 @@
 import React from 'react'
+import type { IconType } from 'react-icons'
 import {
   MdOutlineChatBubbleOutline,
   MdOutlineDesignServices,
@@ -29,7 +30,13 @@ const steps = [
   },
 ]
 
-const StepItem = ({ step, index }) => {
+const StepItem = ({
+  step,
+  index,
+}: {
+  step: { icon: IconType; title: string; desc: string }
+  index: number
+}) => {
   const Icon = step.icon
 
   return (

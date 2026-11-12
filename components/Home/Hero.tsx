@@ -53,7 +53,7 @@ const Hero = () => {
               indonesia
             </h2>
 
-            <p className="mt-3 max-w-xs text-xs leading-relaxed text-latar">
+            <p className="mt-3 max-w-xs text-xs leading-relaxed text-primary">
               Apoinca Sultra membantu bisnis di Sulawesi Tenggara tampil
               profesional di internet, dari company profile sampai toko online.
             </p>
