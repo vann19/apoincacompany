@@ -34,7 +34,7 @@ const Hero = () => {
           />
 
           <Image
-            src="/img/person_mobile1.png"
+            src="/img/personhd.png"
             alt="Konsultan Apoinca Sultra"
             width={200}
             height={260}
